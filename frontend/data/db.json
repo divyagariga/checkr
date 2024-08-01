@@ -1,0 +1,802 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test",
+      "email": "test@gmail.com",
+      "password": "Test@123"
+    },
+    {
+      "id": 2,
+      "name": "Uma",
+      "email": "uma.mit51@gmail.com",
+      "password": "Test@123"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "Divya@123",
+      "id": 3
+    },
+  
+    {
+      "email": "test0267@gmail.com",
+      "password": "Test@123",
+      "id": 6
+    },
+    {
+      "email": "java.troi85@gmail.com",
+      "password": "",
+      "id": 7
+    }
+   
+  ],
+  "reset-password": [
+    {
+      "id": 1,
+      "userId": 1,
+      "otp": "1111"
+    },
+    {
+      "userId": 2,
+      "otp": "1111",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "otp": "1111",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "otp": "1111",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "otp": "1111",
+      "id": 5
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "location": "Barrouallie",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "John.smith@checkr.com"
+    },
+    {
+      "id": 2,
+      "name": "Serene",
+      "location": "Vänersborg",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Serene@checkr.com"
+    },
+    {
+      "id": 3,
+      "name": "Walsh",
+      "location": "Sukamanah",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Walsh@checkr.com"
+    },
+    {
+      "id": 4,
+      "name": "Maurizia",
+      "location": "Sukamanah",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Maurizia@checkr.com"
+    },
+    {
+      "id": 5,
+      "name": "Kendre",
+      "location": "Beutong Ateuh",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Kendre@checkr.com"
+    },
+    {
+      "id": 6,
+      "name": "Erastus",
+      "location": "Höviyn Am",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Erastus@checkr.com"
+    },
+    {
+      "id": 7,
+      "name": "Jereme",
+      "location": "Sharïngol",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Jereme@checkr.com"
+    },
+    {
+      "id": 8,
+      "name": "John Smith",
+      "location": "Lianyun",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "John.smith@checkr.com"
+    },
+    {
+      "id": 9,
+      "name": "Cari",
+      "location": "Taboão da Serra",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Cari@checkr.com"
+    },
+    {
+      "id": 10,
+      "name": "John Smith",
+      "location": "Veselí nad Moravou",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Kimble@checkr.com"
+    },
+    {
+      "id": 11,
+      "name": "Gaurav",
+      "location": "Barrouallie",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "John.smith@checkr.com"
+    },
+    {
+      "id": 12,
+      "name": "Divya ",
+      "location": "Vänersborg",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Serene@checkr.com"
+    },
+    {
+      "id": 13,
+      "name": "Umardharshini",
+      "location": "Sukamanah",
+      "dob": "1990-09-10 (26)",
+      "phone": 55555555555,
+      "zipcode": 94158,
+      "socialSecurityNumber": "XXX-XX-6789",
+      "driverLicense": "FTEST1111 (CA)",
+      "createdDate": "Nov 29,2016 11:05:57 AM",
+      "email": "Walsh@checkr.com"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "adjudication": "ADVERSE ACTION",
+      "status": "CONSIDER",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 2,
+      "candidateId": 2,
+      "adjudication": "ADVERSE ACTION",
+      "status": "CONSIDER",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 3,
+      "candidateId": 3,
+      "adjudication": "ADVERSE ACTION",
+      "status": "CONSIDER",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 4,
+      "candidateId": 4,
+      "adjudication": "ADVERSE ACTION",
+      "status": "CONSIDER",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 5,
+      "candidateId": 5,
+      "adjudication": "",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 6,
+      "candidateId": 6,
+      "adjudication": "ENGAGE",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 7,
+      "candidateId": 7,
+      "adjudication": "",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 8,
+      "candidateId": 8,
+      "adjudication": "",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 9,
+      "candidateId": 9,
+      "adjudication": "",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 10,
+      "candidateId": 10,
+      "adjudication": "",
+      "status": "CLEAR",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 11,
+      "candidateId": 11,
+      "adjudication": "",
+      "status": "Clear",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 12,
+      "candidateId": 12,
+      "adjudication": "",
+      "status": "Clear",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    },
+    {
+      "id": 13,
+      "candidateId": 13,
+      "adjudication": "",
+      "status": "Clear",
+      "package": "Employee pro",
+      "createdDate": "Dec 1, 2016 12:00:00 PM",
+      "completedDate": "Dec 4, 2016 12:00:00 PM"
+    }
+  ],
+  "court-searches": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "searchCategory": "SSN Verification",
+      "status": "CLEAR",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 2,
+      "candidateId": 1,
+      "searchCategory": "Global Watchlist",
+      "status": "CLEAR",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 3,
+      "candidateId": 1,
+      "searchCategory": "SSN Verification",
+      "status": "CLEAR",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 4,
+      "candidateId": 1,
+      "searchCategory": "Global Watchlist",
+      "status": "CLEAR",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 5,
+      "candidateId": 1,
+      "searchCategory": "SSN Verification",
+      "status": "CLEAR",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 6,
+      "candidateId": 2,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 7,
+      "candidateId": 2,
+      "searchCategory": "SSN Verification",
+      "status": "CONSIDER",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 8,
+      "candidateId": 2,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 9,
+      "candidateId": 2,
+      "searchCategory": "SSN Verification",
+      "status": "CONSIDER",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 10,
+      "candidateId": 2,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 11,
+      "candidateId": 3,
+      "searchCategory": "SSN Verification",
+      "status": "CLEAR",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 12,
+      "candidateId": 3,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 13,
+      "candidateId": 3,
+      "searchCategory": "SSN Verification",
+      "status": "CLEAR",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 14,
+      "candidateId": 3,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 15,
+      "candidateId": 3,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 16,
+      "candidateId": 4,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 17,
+      "candidateId": 4,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 18,
+      "candidateId": 4,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 19,
+      "candidateId": 4,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 20,
+      "candidateId": 4,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 21,
+      "candidateId": 5,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 22,
+      "candidateId": 5,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 23,
+      "candidateId": 5,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 24,
+      "candidateId": 5,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 25,
+      "candidateId": 5,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 26,
+      "candidateId": 6,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 27,
+      "candidateId": 6,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 28,
+      "candidateId": 6,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 29,
+      "candidateId": 6,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 30,
+      "candidateId": 6,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 31,
+      "candidateId": 7,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 32,
+      "candidateId": 7,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 33,
+      "candidateId": 7,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 34,
+      "candidateId": 7,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 35,
+      "candidateId": 7,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 36,
+      "candidateId": 8,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 37,
+      "candidateId": 8,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 38,
+      "candidateId": 8,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 39,
+      "candidateId": 8,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 40,
+      "candidateId": 8,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 41,
+      "candidateId": 9,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 42,
+      "candidateId": 9,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 43,
+      "candidateId": 9,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 44,
+      "candidateId": 9,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 45,
+      "candidateId": 9,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 46,
+      "candidateId": 10,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 47,
+      "candidateId": 10,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 48,
+      "candidateId": 10,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 49,
+      "candidateId": 10,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 50,
+      "candidateId": 10,
+      "searchCategory": "Global Watchlist",
+      "status": "CONSIDER",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 51,
+      "candidateId": 11,
+      "searchCategory": "SSN Verification",
+      "status": "Clear",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 52,
+      "candidateId": 11,
+      "searchCategory": "Global Watchlist",
+      "status": "Clear",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 53,
+      "candidateId": 11,
+      "searchCategory": "SSN Verification",
+      "status": "Clear",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 54,
+      "candidateId": 11,
+      "searchCategory": "Global Watchlist",
+      "status": "Clear",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 55,
+      "candidateId": 11,
+      "searchCategory": "SSN Verification",
+      "status": "Clear",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 56,
+      "candidateId": 12,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 57,
+      "candidateId": 12,
+      "searchCategory": "SSN Verification",
+      "status": "Consider",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 58,
+      "candidateId": 12,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 59,
+      "candidateId": 12,
+      "searchCategory": "SSN Verification",
+      "status": "Consider",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 60,
+      "candidateId": 12,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 61,
+      "candidateId": 13,
+      "searchCategory": "SSN Verification",
+      "status": "Clear",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 62,
+      "candidateId": 13,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 63,
+      "candidateId": 13,
+      "searchCategory": "SSN Verification",
+      "status": "Clear",
+      "date": "2/22/2022"
+    },
+    {
+      "id": 64,
+      "candidateId": 13,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    },
+    {
+      "id": 65,
+      "candidateId": 13,
+      "searchCategory": "Global Watchlist",
+      "status": "Consider",
+      "date": "7/2/2022"
+    }
+  ],
+  "adverse-actions": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "status": "Scheduled",
+      "noticeDate": "7/2/2022"
+    }
+  ]
+}

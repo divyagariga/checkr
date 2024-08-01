@@ -1,0 +1,15 @@
+/frontend/build
+/frontend/node_modules
+frontend/coverage
+/frontend/.env.prod
+
+# backend
+backend/**/.idea
+backend/**/.mvn
+backend/**/target
+backend/**/mvnw
+backend/**/mvnw.cmd
+backend/**/HELP.md
+.idea
+
+database-password.yml

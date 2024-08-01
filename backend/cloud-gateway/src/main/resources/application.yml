@@ -1,0 +1,50 @@
+server:
+  port:
+    9191
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods: "*"
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/v1/users/**
+          filters:
+            - AuthenticationFilter
+        - id: CANDIDATE-SERVICE
+          uri: lb://CANDIDATE-SERVICE
+          predicates:
+            - Path=/api/v1/candidates/**
+          filters:
+            - AuthenticationFilter
+        - id: ADVERSE-ACTION-SERVICE
+          uri: lb://ADVERSE-ACTION-SERVICE
+          predicates:
+            - Path=/api/v1/adverse-actions/**
+          filters:
+            - AuthenticationFilter
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
+jwt:
+  secret: d2fbb1d0e2fcb4e8c4b1c4e8d1fbb1d0e2fcb4e8c4b1c4e8d1fbb1d0e2fcb4e8c4b1c4e8

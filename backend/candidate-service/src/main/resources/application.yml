@@ -1,0 +1,28 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: CANDIDATE-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost/bc_131_checkr_db?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  flyway:
+    baseline-on-migrate: true
+    locations: classpath:/db/migration
+    validate-on-migrate: false
+    out-of-order: true
+    enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
