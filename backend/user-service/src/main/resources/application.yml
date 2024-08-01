@@ -6,9 +6,8 @@ spring:
     name: USER-SERVICE
   datasource:
     url: jdbc:mysql://localhost/bc_131_checkr_db?serverTimezone=UTC
-
-    username: root
-    password: root
+    username: bc131
+    password: bc131@
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     baseline-on-migrate: true

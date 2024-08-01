@@ -1,3 +1,6 @@
+CREATE USER 'bc131'@'localhost' IDENTIFIED BY 'bc131@';
+GRANT ALL PRIVILEGES ON `bc_131_checkr_db`.* TO 'bc131'@'localhost';
+FLUSH PRIVILEGES;
 CREATE DATABASE `bc_131_checkr_db`;
 use `bc_131_checkr_db`;
 CREATE TABLE `user` (
