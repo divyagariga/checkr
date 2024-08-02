@@ -18,7 +18,7 @@ vscode <br>
  4. navigate to [http://localhost:3001/](http://localhost:3001/) to see the frontend <br>
 
 # start the spring boot backend api's
-
+<B> (backend api's are protected through JWT authentication so we cant access them directly without bearer token ) <br>
 open all backend folders in intellij as maven projects
 1. run the service registry main class then cloud gateway main class <br>
 2. then the user microservice main class and the candidate microservice main class <br>
