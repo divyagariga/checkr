@@ -1,28 +1,29 @@
 ## Requirements
-node >= 20
-npm >= version 
-java 
-intellij
-mysql
-vscode
+node >= 20  <br>
+npm >= version  <br>
+java <br>
+intellij <br>
+mysql <br>
+vscode <br>
 
 ## create database 
  run the db_script.sql in mysql workbench
 
 ## How to run the application
 
-# start the frontend: 
- 1.change to frontend directory and hit 
- 2. npm install --force
- 3. npm start 
- 4. navigate to [text](http://localhost:3001/) to see the frontend
+# start the React frontend: 
+ 1.change to frontend directory and hit  <br>
+ 2. npm install --force <br>
+ 3. npm start  <br>
+ 4. navigate to [http://localhost:3001/](http://localhost:3001/) to see the frontend <br>
 
-# start the backend api's
+# start the spring boot backend api's
 
 open all backend folders in intellij as maven projects
-1. run the service registry main class then cloud gateway main class
-2. then the user microservice main class and the candidate microservice main class
-3.open [text](http://localhost:8761/) service registry to check if cloud gateway, candidate microservice and user microservices are up.
-4. once all the services are visible 
+1. run the service registry main class then cloud gateway main class <br>
+2. then the user microservice main class and the candidate microservice main class <br>
+3.open [http://localhost:8761/](http://localhost:8761/) service registry to check if cloud gateway, candidate <br>
+microservice and user microservices are up.
+4. once all the services are visible <br>
 
-navigate to [text](http://localhost:3001/) and check the checkr app flow
+navigate to [http://localhost:3001/](http://localhost:3001/) and check the checkr app flow
