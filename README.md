@@ -13,7 +13,7 @@
  them of the findings and their right to dispute any inaccuracies. This ensures
  transparency and compliance with legal standards before any final adverse action is
  taken.
-
+## Report.pdf [https://github.com/divyagariga/checkr/blob/main/report.pdf]
 ## create database 
  run the db_script.sql in mysql workbench
 
