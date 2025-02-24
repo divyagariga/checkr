@@ -1,4 +1,4 @@
-##Project Description- Checkr
+## Project Description- Checkr
  The goal of this project is to develop a comprehensive and efficient background check
  application designed to automate and streamline the process of conducting background
  checks for individuals. This application will be primarily used by employers and other
