@@ -1,10 +1,18 @@
-## Requirements
-node >= 20  <br>
-npm >= version  <br>
-java <br>
-intellij <br>
-mysql <br>
-vscode <br>
+##Project Description- Checkr
+ The goal of this project is to develop a comprehensive and efficient background check
+ application designed to automate and streamline the process of conducting background
+ checks for individuals. This application will be primarily used by employers and other
+ entities that require detailed information on individuals for security, employment.
+## About Checkr application:
+ The Checkr application process begins when a user initiates a background check by
+ submitting the applicant’s details. Checkr then collects data from multiple sources,
+ including court records, to verify the applicant's history. Once the data is gathered,
+ Checkr compiles it into a detailed report that is accessible through the candidate details
+ page. If the report reveals any issues like if the candidate has CONSIDER status
+ instead of CLEAR, a pre-adverse action notice shoud be sent to the applicant, informing
+ them of the findings and their right to dispute any inaccuracies. This ensures
+ transparency and compliance with legal standards before any final adverse action is
+ taken.
 
 ## create database 
  run the db_script.sql in mysql workbench
